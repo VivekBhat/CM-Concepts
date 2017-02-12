@@ -1,33 +1,4 @@
-# HW #1 - A Provisioning Servers
-
-<B>Name: Vivek Bhat</B><br>
-<b>Unity ID: vbhat</b>
-
-##Tasks
-- 40% Code for provisioning from two platforms.
-- 20% Configuration management of repo.
-- 20% Concepts
-- 20% Screencast and following instructions.
-
-##Task 1: Code for provisioning from two platforms.
-<p>The code to provision DigitalOcean and AWS EC2 is in the two files</p>
-* [do.js](https://github.ncsu.edu/vbhat/HW1/blob/master/do.js)
-* [aws.js](https://github.ncsu.edu/vbhat/HW1/blob/master/aws.js)
-
-<p>To automate the process of creating the two servers and displaying their IP Adresses simultaneously, I have created a bash script to run the commands:</p>
-* [script](https://github.ncsu.edu/vbhat/HW1/blob/master/script)
-
-To run the programs do the following:
-
-		npm install
-		bash script 
-	
-##Task 2: Configuration management of repo.
-Instead of uploading the Node_modules folder there is package.json file to resolve the dependencies of the project.
-
-* [Package.json](https://github.ncsu.edu/vbhat/HW1/blob/master/package.json)
-
-##Task 3: Concepts
+Concepts
 
 ###1. Idempotent
 
@@ -145,9 +116,3 @@ If configuration management is not properly managed, this will lead to greater c
 * Re-doing an implementation because you implemented to meet requirements that had changed and you didn’t communicate that to all parties.
 * Losing productivity when you replace a component with a flawed new version and can’t quickly revert to a working state.
 * Replacing the wrong component because you couldn’t accurately determine which component needed replacing.
-
-##Task 4: Screencast and following instructions.
-
-The Link to the screencast is:
-* [Link](https://youtu.be/gjxwtLtfVGM)
-
