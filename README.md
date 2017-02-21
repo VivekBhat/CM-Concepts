@@ -72,6 +72,7 @@ Two configuration models are:
 	<strong>Advantages of a 'push' system are:</strong><br>
 	* <b>Control</b>: everything is synchronous, and under your control. You can see right away is something went wrong, and you can correct it immediately.
 	* <b>Simplicity:</b> in the case of Fabric, a 'fabfile' is just a collection of Python functions that copy files over to a remote server and execute commands over ssh on that server; it's all very easy to set up and run
+	* The push-based approach has a significant advantage: you control when the changes happen to the servers. You don’t need to wait around for a timer to expire. Advocates of the pull-based approach claim that pull is superior for scaling to large numbers of servers and for dealing with new servers that can come online anytime. However, as we’ll discuss later in the book, Ansible has been used successfully in production with thousands of nodes, and has excellent support for environments where servers are dynamically added and removed.
 	
 	<strong>Disadvantages of a 'push' system are:</strong><br>
 	
