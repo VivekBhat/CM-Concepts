@@ -31,8 +31,10 @@ Imdempotence is a part of configuration management theory.<br> It means that mul
 <br>
 
 > Put simply, an idempotent operation is one which can be applied multiple times without causing the result to diverge from the desired state.
-> 
-
+		
+		user: name=deploy group=web
+Modules are also idempotent. If the “deploy” user doesn’t exist, then Ansible will create
+it. If it does exist, then Ansible won’t do anything.
 
 ####<u>Examples of an Non-idempotent operation is </u>
 
